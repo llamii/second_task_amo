@@ -1,0 +1,156 @@
+@media screen and (max-width: 1340px) {
+  header .info .telephone {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  header .info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .upper-part {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(14, 16, 20);
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* light text */
+
+    color: #e4e5ea;
+  }
+  .header-mobile-menu-list li {
+    padding-right: 20px;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+
+  .right__button {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .lower-part {
+    display: none;
+  }
+  .wrapper {
+    width: 965px;
+  }
+  main {
+    text-align: left;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+
+  main span {
+    font-size: 48px;
+  }
+
+  main table {
+    padding-top: 100px;
+  }
+
+  .we_present span {
+    font-size: 26px;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+  }
+  .right__header {
+    text-align: left;
+  }
+
+  .we_present {
+    display: flex;
+  }
+  .we_present span {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* light text */
+
+    color: #e4e5ea;
+  }
+
+  table {
+    display: none;
+  }
+
+  .main-footer {
+    justify-content: center;
+    padding-left: 50px;
+  }
+
+  .footer__upper {
+    flex-direction: column;
+  }
+  .footer__contacts {
+    text-align: left;
+  }
+  .footer__contacts__list {
+    justify-content: center;
+  }
+  .footer__about {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+  .footer__menu {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  .footer__menu__tables {
+    justify-content: left;
+  }
+  .footer__lower {
+    text-align: left;
+  }
+  .main-footer h5 {
+    font-size: 22px;
+  }
+
+  .main-footer li {
+    font-size: 18px;
+  }
+}
